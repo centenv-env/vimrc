@@ -28,3 +28,8 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+
+" LINE MOVEMENT
+" Move current line up/down
+nnoremap <A-k> :move .-2<CR>==
+nnoremap <A-j> :move .+1<CR>==
